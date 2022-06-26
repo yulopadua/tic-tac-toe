@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    text-align: center;
+}
+
+.grid-box {
+    border: 1px solid gray;
+    color: darkgray;
+    font-size: 7rem;
+}
